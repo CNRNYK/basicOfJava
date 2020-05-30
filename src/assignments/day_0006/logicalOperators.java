@@ -39,6 +39,13 @@ public class logicalOperators {
 		double resa = res%40;
 		System.out.println(res + " k " + resa);
 		
+		float a = 100.987_6543f;
+		short b = (byte) a;
+		byte c = (byte) b;
+		System.out.println(c);
+		c = 100 / 2;
+		System.out.println(1/2+3/2+0.1);
+		
 	}
 
 }

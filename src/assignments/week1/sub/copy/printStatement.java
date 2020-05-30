@@ -1,4 +1,4 @@
-package week1.sub;
+package assignments.week1.sub.copy;
 
 public class printStatement {
 

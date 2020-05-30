@@ -1,6 +1,7 @@
 package Gncr_Reviews;
 
 public class Task8_newApproach {
+	
     public static void main(String[] args) {
         increaseAndWriteWithExceptionHandling("IN 1491 COLUMBUS SAILED THE OCEANBLUE");
         int sayi = 1941;
