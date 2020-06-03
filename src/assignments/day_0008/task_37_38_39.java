@@ -1,5 +1,7 @@
 package assignments.day_0008;
 
+import java.util.Scanner;
+
 public class task_37_38_39 {
 
 	public static void main(String[] args) {
@@ -15,9 +17,12 @@ public class task_37_38_39 {
 		
 		
 		String model = "Apple";
+		Scanner myObj = new Scanner (System.in);
+		System.out.println("bisayar modelini giriniz?");
+		model = myObj.nextLine();
 		
 		switch (model) {
-		case "Apple":
+		case "Apple": case "apple":
 			System.out.println("Apple-no virus");
 			
 			break;
@@ -32,7 +37,9 @@ public class task_37_38_39 {
 		default:
 			System.out.println("do not buy that one");
 			break;
+		
 		}
+		System.out.println("=======================================");
 		
 		
 		
@@ -50,8 +57,11 @@ public class task_37_38_39 {
 		
 		
 		int dayCount = 1;
+		Scanner myObj2 = new Scanner (System.in);
+		System.out.println("Günü giriniz");
+		dayCount = myObj2.nextInt();
 		
-		
+  		
 		switch (dayCount) {
 		case 1:
 			System.out.println("Monday");
@@ -79,6 +89,8 @@ public class task_37_38_39 {
 			break;
 		}
 		
+		System.out.println("=======================================");
+		
 		
 		/*
 		 * TASK 39
@@ -87,6 +99,7 @@ public class task_37_38_39 {
 		*/
 		
 		String code = "g";
+		
 		switch (code) {
 		case "r" : case  "R":
 		{
