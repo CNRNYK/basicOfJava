@@ -9,18 +9,22 @@ public class Question_3 {
 		System.out.println("Enter year");
 		year = scanner.nextInt();
 		
-		if (year%4 == 0) {
-			if (year%100 == 0) {
-				if(year%400 != 0) {
-					System.out.println("Not leap year");
-					
-				} else {
-					System.out.println("Leap Year");
-				}
-			}
+		if (year%4 == 0 && year%100 != 0 || year%400 == 0) {
+			
 			System.out.println("Leap Year");
-			}
-		}
+			
+		} 
+		else {
+					 System.out.println("Not leap year");					
+				}
+			
+
+		
+		
 		
 	}
+
+
+
+}
 
