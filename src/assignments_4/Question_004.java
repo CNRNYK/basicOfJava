@@ -1,6 +1,6 @@
 package assignments_4;
 import java.util.Scanner;
-public class Question_4 {
+public class Question_004 {
 	public static void main(String args[]) {
 		
 		Scanner myObj = new Scanner(System.in);

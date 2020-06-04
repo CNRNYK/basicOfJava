@@ -1,7 +1,7 @@
-package assignments_4.copy;
+package assignments_4;
 import java.util.Scanner;
 
-public class Question_1 {
+public class Question_001 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -51,8 +51,5 @@ public class Question_1 {
 		else if (BMI >= 30){
 			System.out.println("Your risk factory is Obese");
 		}
-			
-
 	}
-
 }

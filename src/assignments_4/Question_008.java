@@ -1,7 +1,7 @@
-package assignments_4.copy;
+package assignments_4;
 import java.util.Scanner;
 
-public class Question_8 {
+public class Question_008 {
 
 	public static void main(String[] args) {
 		

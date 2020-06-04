@@ -1,7 +1,7 @@
 package assignments_4;
 import java.util.Scanner;
 
-public class Question_5 {
+public class Question_005 {
 	public static void main(String args[]) {
 		Scanner myObj = new Scanner(System.in);
 		System.out.println("Enter day: ");

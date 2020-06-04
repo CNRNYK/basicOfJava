@@ -1,6 +1,6 @@
-package assignments_4.copy;
+package assignments_4;
 import java.util.Scanner;
-public class Question_15 {
+public class Question_015 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
