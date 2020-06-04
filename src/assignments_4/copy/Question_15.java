@@ -1,4 +1,4 @@
-package assignments_4;
+package assignments_4.copy;
 import java.util.Scanner;
 public class Question_15 {
 
