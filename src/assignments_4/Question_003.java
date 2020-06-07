@@ -9,6 +9,7 @@ public class Question_003 {
 		System.out.println("Enter year");
 		year = scanner.nextInt();
 		
+		
 		if (year%4 == 0 && year%100 != 0 || year%400 == 0) {
 			
 			System.out.println("Leap Year");
@@ -16,15 +17,7 @@ public class Question_003 {
 		} 
 		else {
 					 System.out.println("Not leap year");					
-				}
-			
-
-		
-		
-		
+				}		
 	}
-
-
-
 }
 

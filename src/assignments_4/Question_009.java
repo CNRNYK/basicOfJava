@@ -22,20 +22,18 @@ public class Question_009 {
 		int mile = myObj.nextInt();
 		double price;
 		
-		if (weight<=2) 
-		{
+		
+		
+		if (weight<=2) {
 		price = ((mile/500)+1)*1.1;	
 		}
-		else if(weight<6) 
-		{
+		else if(weight<6) {
 			price = ((mile/500)+1)*2.7;	
 		}
-		else if(weight<10) 
-		{
+		else if(weight<10) {
 			price = ((mile/500)+1)*3.7;	
 		}
-		else  
-		{
+		else  {
 			price = ((mile/500)+1)*3.8;	
 		}
 		System.out.println("You should pay " +price);

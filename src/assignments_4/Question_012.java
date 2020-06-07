@@ -11,7 +11,12 @@ public class Question_012 {
 		System.out.println("Total hour");
 		
 		int hours = myObj.nextInt();
+		
+		
 		double price;
+		
+		
+		
 		
 		switch (model) {
 		case "A" :
@@ -19,7 +24,7 @@ public class Question_012 {
 				if (hours>10) {
 					price = price + (2 * ( hours - 10)) ;}
 			System.out.println("You will charge " + price + " $");
-			break;
+			//break;
 		
 		case "B" :
 			price = 13.95 ;
