@@ -1,7 +1,8 @@
 package days_tasks.day_0010;
 
 public class ternaryOperator {
-    public static void main(String args){
+
+    public static void main(String[] args){
 
         String result;
         int score = 88;
