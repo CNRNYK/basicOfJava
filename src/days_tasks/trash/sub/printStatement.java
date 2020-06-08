@@ -1,4 +1,4 @@
-package days_tasks.week1.sub;
+package days_tasks.trash.sub;
 
 public class printStatement {
 

@@ -1,4 +1,4 @@
-package days_tasks;
+package days_tasks.trash.sub;
 
 public class test {
 
