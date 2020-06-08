@@ -4,38 +4,46 @@ import java.util.Scanner;
 
 public class forLoops {
     public static void main(String[] args) {
-        int x=0;
 
+        int x=0;
         if (x++ <= 15){
             System.out.println("Hello");
-            }
-        else{
+            } else{
             System.out.println("Bye");}
 
         // for ( init; condition ; increement ){ .... }
+       /*
+
+       Task 40
+       Write a program that displays all even numbers between 1-100 in same line
+
+        */
         int a = 0;
         for ( int b = 0; b<10 ; b++ ) // For döngüsü içersinde kullandığın ve tanımladığın init sadece for döngüsü için geçerli
             {
             System.out.print( b +" Caner ");
             if (a++ <=0){
                 System.out.println("Print it once");
-
-
             }
         }
+
+        System.out.println("\n");
+
         /*
 
+        Task-42
         Çift numaraları yazdıran
 
          */
-        System.out.println("Çift numaraları yazdıran");
+        System.out.println("Write even numbers");
 
-        for ( int b = 0 ; b <= 100 ; b+=2){  // Hatalı düşünce 0'ı dahil ettiğim için hatalı
+        for ( int b = 0 ; b <= 100 ; b+=2){  // Wrong approach about "0" variable
             System.out.print(b + " ");
         }
 
         System.out.println("\n");
 
+        System.out.println("Write even numbers");
         for (int b=1; b<=101 ;b++) {
             if (b%2 == 0){
             System.out.print(b +" ");
@@ -45,6 +53,7 @@ public class forLoops {
 
         /*
         All odd numbers between 5 - 140
+        Write a program that displays all odd numbers between 5-140 in same line
          */
         System.out.println("All odd numbers between 5 - 140");
         for ( int z = 4 ; z <= 140 ; z++ ){
@@ -91,7 +100,6 @@ public class forLoops {
             System.out.println(i + "\t\t" + (i*i));
         }
         System.out.println("\n");
-
 
         /*
 
