@@ -11,7 +11,7 @@ public class Question_006 {
 		Mass = myObj.nextDouble();
         Weight = Mass * 9.8;
         if (Weight >= 1000) {
-        	System.out.println("Too heavy");
+        	System.out.println("Too heavy" + Weight);
         }else if(Weight <= 10 ) {
         	System.out.println("Too light");
         }
