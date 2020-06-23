@@ -5,7 +5,7 @@ public class Question7 {
 	public static void main(String[] args) {
 		
 		int vend,cent,nickle,dime,quarter,dollar;
-		vend=95;
+		vend=23;
 		dollar=100-vend;
 		nickle=((dollar%25)%10)/5;
 		dime=(dollar%25)/10;
