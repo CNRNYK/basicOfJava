@@ -4,16 +4,18 @@ public class task47 {
     public static void main(String[] args){
 
 
-        for (int i = 0 ; i < 6 ; i++ ){
+        for (int i = 1 ; i <= 7 ; i++ ){
 
-            for(int z= 0 ; z < 6 ;z++){
+            for(int z= 1 ; z <= 6 ;z++){
 
-                System.out.print("*");
-                if (z==5){
-                    System.out.println("");
+                System.out.print(z);
+
+                if (z==6){
+                    System.out.println();
                 }
 
             }
+            //System.out.println("*");
 
         }
 

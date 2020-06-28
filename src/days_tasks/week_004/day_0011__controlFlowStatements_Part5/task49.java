@@ -13,6 +13,7 @@ public class task49 {
 
 
             }
+
             System.out.println("#");
 
         }

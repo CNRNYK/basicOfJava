@@ -9,7 +9,7 @@ public class task50 {
 
             for(int z= 1 ; z <= i ;z++){
 
-                System.out.print(z);
+                System.out.print(i);
 
 
             }
