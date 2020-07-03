@@ -12,11 +12,11 @@ public class Question4 {
         Question4_Males countsM = new Question4_Males();
 
         System.out.println("How many females are there");
-        countsF.counter = myScan.nextInt();
+        countsF.counter = myScan.nextDouble();
         System.out.println("How many males are there");
-        countsM.counter = myScan.nextInt();
+        countsM.counter = myScan.nextDouble();
 
-        System.out.println("Percentage of fameles to males is : " +  (countsF.counter / countsM.counter)/(countsF.counter+ countsM.counter));
+        System.out.println("Percentage of fameles to males is : " +  (countsF.counter / countsM.counter)/(countsF.counter+ countsM.counter)  );
     }
 
 }
