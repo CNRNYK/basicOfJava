@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class question003 {
     public static void main(String[] args) {
+
         Scanner myScanner  = new Scanner(System.in);
         System.out.println("Input your string :");
         String input =  myScanner.nextLine();
@@ -15,10 +16,14 @@ public class question003 {
 
     public static String extraEnd(String pInput){
         String str;
+
         int length = pInput.length();
+
         if (length < 2) {
-            str =  " Your input is 1 character";
-        }else {
+            str =  " Your input is 1  or 0 character";
+        }
+
+        else {
             str  = pInput.substring(length-2, length);
             str = str.concat(str).concat(str);
         }

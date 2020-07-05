@@ -15,6 +15,7 @@ public class question0010 {
     private static boolean frontAgain(String fullWord ) {
         String twoChar = fullWord.substring(0,2);
         boolean bool;
+
         if (fullWord.substring(1,fullWord.length()).contains(twoChar)){
             bool = true;
 
