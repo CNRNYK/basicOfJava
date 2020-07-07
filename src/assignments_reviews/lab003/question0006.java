@@ -10,6 +10,7 @@ public class question0006 {
         System.out.println(withoutEnd(myScanner.nextLine()));
     }
 
+
     private static String withoutEnd(String nextLine) {
 
         if(nextLine.length()>1){
@@ -19,7 +20,7 @@ public class question0006 {
 
         }else nextLine = "Your word is not in criteria";
 
-        // comment
+        /* comment */
 
 
         return nextLine;
