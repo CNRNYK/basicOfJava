@@ -12,7 +12,9 @@ public class task_0083 {
         Random myRandom = new Random();
 
         System.out.println("Duygu Rolling the dice...");
-
+        String cva = "purr";
+        cva = cva.toUpperCase().trim().substring(3,3);
+        System.out.println(cva.length());
         while (true){
 
             System.out.println("Their values are: " + (myRandom.nextInt(6) + 1) + " " + (myRandom.nextInt(6) + 1));

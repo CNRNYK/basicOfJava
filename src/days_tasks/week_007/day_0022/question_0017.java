@@ -21,7 +21,8 @@ public class question_0017 {
             bool = true;
         }
 
-        System.out.println("--------------------");
+        System.out.println("--------------------" +
+                "");
         System.out.println(nextLine.replace(" ",""));
         System.out.println("--------------------");
         System.out.println(dummy.replace(" ",""));

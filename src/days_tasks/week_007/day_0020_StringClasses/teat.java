@@ -2,26 +2,8 @@ package days_tasks.week_007.day_0020_StringClasses;
 
 import java.util.Scanner;
 
-public class indexOf2 {
+public class teat {
     public static void main(String[] args) {
-        // index of two values
-        String list = "html-selenium-angular-jenkins-grid";
-        int firstDash = list.indexOf("-");
-        System.out.println(firstDash);
-
-        int secondDash = list.indexOf("-",5);
-        System.out.println(secondDash);
-
-        int thirdDash = list.indexOf("-" ,secondDash+1);
-        System.out.println(thirdDash);
-
-        int lastDash = list.lastIndexOf("-");
-        System.out.println(lastDash);
-
-
-
-
-
         //target = target.substring(0,3);
         //zSystem.out.println(main);
         //target = target.substring(0,3).concat(word).concat(target.substring(3,target.length()));
@@ -64,14 +46,27 @@ public class indexOf2 {
         System.out.println("Select RAM size:");
         ram  = scan.nextInt();
         price = ram/4 * 50;
+
         System.out.println("Select storage type:");
         storageType = scan.nextLine();
+
         System.out.println("Enter memory size:");
         memorySize = scan.nextInt();
-        price = price  + memorySize/500;
+
+        switch (storageType){
+            case "HDD":{
+                price += (memorySize/500)*50;
+                break;
+            }
+            case "SSD":{
+                price  +=(memorySize/500)*100;
+            }
+        }
+
 
         System.out.println("Enter screen resolution:");
         screenType= scan.nextLine();
+
         if (screenType.equals("FULLHD")){
             price  += 100;
         }else if (screenType.equals("4K")){
@@ -79,14 +74,7 @@ public class indexOf2 {
         }
         System.out.println("Laptop price is: $"+price);
         //Display message: Laptop price is: $1050.0
-
-
-
     }
-    public static void test(String str , String str2 ){
 
-        if (str.contains(str2)){
-            System.out.println(str.indexOf(str2));
-        }
-    }
 }
+

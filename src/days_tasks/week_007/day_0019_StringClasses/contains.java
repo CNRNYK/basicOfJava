@@ -7,7 +7,7 @@ public class contains {
 
         Scanner myScan = new Scanner(System.in);
         String email = myScan.nextLine();
-        if (email.contains("gmail")){
+        if (!email.contains("gmail")){
             System.out.println("This is google account");
         }
         else System.out.println("This is other account");
