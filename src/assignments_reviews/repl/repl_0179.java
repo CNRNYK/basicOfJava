@@ -8,7 +8,7 @@ public class repl_0179 {
         }
 
         public static String uniqueChars(String str) {
-            
+
             String temp = "";
             for (int i = 0; i < str.length(); i++){
 
