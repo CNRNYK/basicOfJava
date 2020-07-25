@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Question_001 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		/*
 		 *      - Underweight<18.5
 

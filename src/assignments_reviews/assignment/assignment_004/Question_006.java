@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class Question_006 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
 		double Weight, Mass;
 		Scanner myObj = new Scanner(System.in);
 		System.out.println("Enter mass");

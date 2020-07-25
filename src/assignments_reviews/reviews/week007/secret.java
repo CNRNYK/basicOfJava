@@ -1,4 +1,4 @@
-package assignments_reviews.reviews;
+package assignments_reviews.reviews.week007;
 
 import java.util.Scanner;
 

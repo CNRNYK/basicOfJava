@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Question_011 {
 
 	public static void main(String args[]) {
-		// TODO Auto-generated method stub
 		Scanner myObj = new Scanner(System.in);
 		System.out.println("Choose enviroment?");
 		String enviroment = myObj.nextLine();

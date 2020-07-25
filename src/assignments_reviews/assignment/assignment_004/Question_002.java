@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class Question_002 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		long income; 
+		long income;
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter your income:");

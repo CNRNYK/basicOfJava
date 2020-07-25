@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Question_014 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner myObj = new Scanner(System.in);
 		System.out.println("Book quantity");
 		int quantity = myObj.nextInt();

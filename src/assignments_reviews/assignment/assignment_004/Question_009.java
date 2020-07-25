@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Question_009 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		/*
 		 * 
 				Weight of Package	Rate per 500 Miles Shipped
