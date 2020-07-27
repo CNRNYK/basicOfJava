@@ -1,4 +1,4 @@
-package days_tasks.week_008.day_0027_arrays.lab4;
+package assignments_reviews.lab004;
 
 public class q04 {
     public static void main(String[] args) {
