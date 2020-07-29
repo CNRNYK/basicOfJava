@@ -1,5 +1,6 @@
 package assignments_reviews.repl;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class repl_0088 { public static void main(String[] args) {
@@ -7,25 +8,22 @@ public class repl_0088 { public static void main(String[] args) {
     int countOfCats = 0;
     int countOfDogs = 0;
     String word = scan.next();
-    if((word.contains("cat") && word.contains("dog") )){
-        // CAT SAYISI ILE DOG SAYISI ESIT
-        //String str = "helloslkhellodjladfjhello";
-        // String findStr = "hello";
-        countOfCats += word.split("cat", -1).length-1;
-        countOfCats += word.split("Cat" , -1).length-1;
-        countOfDogs += word.split("dog", -1).length-1;
-        countOfDogs += word.split("Dog" , -1).length-1;
-//word.
-        System.out.println(countOfCats);
-        System.out.println(countOfDogs);
-        if (countOfCats==countOfDogs){
+    while (word.contains("cat") || word.contains("dog")) {
+        if(word.contains("cat")) {
+            countOfCats++;
+            int i= word.indexOf("cat");
+            word=word.substring(0, i).concat(word.substring(i+3));
 
-        System.out.println(true);
         }
-        else {
-            System.out.println(false);}
+        if(word.contains("dog")) {
+            countOfDogs++;
+            int i= word.indexOf("dog");
+            word=word.substring(0, i).concat(word.substring(i+3));
+        }
+
     }
+
+    if(countOfCats==countOfDogs) System.out.println(true); else System.out.println(false);
 
     }
 }
-
