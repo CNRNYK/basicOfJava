@@ -8,15 +8,14 @@ repl_0096 {
         Scanner scan = new Scanner(System.in);
         String word = scan.next();
         String separator = scan.next();
-
-        String gew= null;
         int count = scan.nextInt();
-        for (int i =0 ; i<count ; i++){
-            gew = word.concat(separator);
-            gew = gew.concat(gew);
-        }
-        System.out.println(gew);
 
+        for(int i=0; i<count; i++){
+            System.out.print(word);
+            if(i<count-1){
+                System.out.print(separator);
+            }
+        }
 
 
 
